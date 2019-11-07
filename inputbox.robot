@@ -13,6 +13,7 @@ Testing input Box
 
     click link  xpath://a[@class='ico-login']
     ${"email_txt"}  set variable    id:Email
+    title should be nopCommerce demo store
 
     element should be visible   ${"email_txt"}
     element should be enabled   ${"email_txt"}
