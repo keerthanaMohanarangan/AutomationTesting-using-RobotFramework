@@ -28,3 +28,5 @@ Timercheck
     input text  name:ConfirmPassword    helloworld
     ${spead}=   get selenium speed
     log to console  ${speed}
+    
+    close all browsers
